@@ -1,3 +1,24 @@
-p {
-	color: red;
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-mtavruli-bold/css/bpg-nino-mtavruli-bold.min.css");
+/*fonts*/
+.kartuli-absoluturi {
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+.kartuli-relatiuri {
+	font-family: 'ALK Life';
+}
+.latinuri-absoluturi {
+	font-family: 'New Tegomin', serif;
+	letter-spacing: 10px;
+	text-indent: 100px;
+	line-height: 30px;
+	text-transform: capitalize;
+	font-weight: 900;
+	font-style: italic;
+}
+.latinuri-relatiuri {
+	font-family: 'Roboto';
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
 }
